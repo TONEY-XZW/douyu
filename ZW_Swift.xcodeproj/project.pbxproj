@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C12CFDFC1E187EBA005DE61F /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12CFDFB1E187EBA005DE61F /* Live.storyboard */; };
+		C12CFDFF1E187ED4005DE61F /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12CFDFD1E187ED4005DE61F /* Follow.storyboard */; };
+		C12CFE011E187F01005DE61F /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12CFE001E187F01005DE61F /* Profile.storyboard */; };
+		C12CFE131E188011005DE61F /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE121E188011005DE61F /* HomeController.swift */; };
+		C12CFE151E188024005DE61F /* LiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE141E188024005DE61F /* LiveController.swift */; };
+		C12CFE171E18802F005DE61F /* FollowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE161E18802F005DE61F /* FollowController.swift */; };
+		C12CFE191E18803F005DE61F /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE181E18803F005DE61F /* ProfileController.swift */; };
+		C12CFE1B1E188189005DE61F /* BaseNavigetionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE1A1E188189005DE61F /* BaseNavigetionController.swift */; };
 		C154C2161F0F22A80054C0B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2151F0F22A80054C0B2 /* AppDelegate.swift */; };
 		C154C2181F0F22A80054C0B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2171F0F22A80054C0B2 /* ViewController.swift */; };
 		C154C21B1F0F22A80054C0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C154C2191F0F22A80054C0B2 /* Main.storyboard */; };
@@ -22,9 +30,18 @@
 		C154C2391F0F28A90054C0B2 /* JQProgressHUDTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2311F0F28A90054C0B2 /* JQProgressHUDTool.swift */; };
 		C154C23A1F0F28A90054C0B2 /* JQWeakTimerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2321F0F28A90054C0B2 /* JQWeakTimerObject.swift */; };
 		C154C23C1F0F298D0054C0B2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C23B1F0F298D0054C0B2 /* Model.swift */; };
+		C154C2441F0F61D70054C0B2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C154C2421F0F61D70054C0B2 /* Home.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C12CFDFB1E187EBA005DE61F /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ZW_Swift/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		C12CFDFE1E187ED4005DE61F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Follow.storyboard; sourceTree = "<group>"; };
+		C12CFE001E187F01005DE61F /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Profile.storyboard; path = ZW_Swift/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		C12CFE121E188011005DE61F /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		C12CFE141E188024005DE61F /* LiveController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveController.swift; sourceTree = "<group>"; };
+		C12CFE161E18802F005DE61F /* FollowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowController.swift; sourceTree = "<group>"; };
+		C12CFE181E18803F005DE61F /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		C12CFE1A1E188189005DE61F /* BaseNavigetionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigetionController.swift; sourceTree = "<group>"; };
 		C154C2121F0F22A80054C0B2 /* ZW_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZW_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C154C2151F0F22A80054C0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C154C2171F0F22A80054C0B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +59,7 @@
 		C154C2311F0F28A90054C0B2 /* JQProgressHUDTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQProgressHUDTool.swift; sourceTree = "<group>"; };
 		C154C2321F0F28A90054C0B2 /* JQWeakTimerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQWeakTimerObject.swift; sourceTree = "<group>"; };
 		C154C23B1F0F298D0054C0B2 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C154C2431F0F61D70054C0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +73,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C12CFE021E187F71005DE61F /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				C12CFDFD1E187ED4005DE61F /* Follow.storyboard */,
+				C12CFE031E187F71005DE61F /* Controller */,
+				C12CFE041E187F71005DE61F /* Model */,
+				C12CFE051E187F71005DE61F /* View */,
+			);
+			name = "Follow(关注)";
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		C12CFE031E187F71005DE61F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C12CFE161E18802F005DE61F /* FollowController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C12CFE041E187F71005DE61F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C12CFE051E187F71005DE61F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12CFE061E187F71005DE61F /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				C154C2421F0F61D70054C0B2 /* Home.storyboard */,
+				C12CFE071E187F71005DE61F /* Controller */,
+				C12CFE081E187F71005DE61F /* Model */,
+				C12CFE091E187F71005DE61F /* View */,
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C12CFE071E187F71005DE61F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C12CFE121E188011005DE61F /* HomeController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C12CFE081E187F71005DE61F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C12CFE091E187F71005DE61F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12CFE0A1E187F71005DE61F /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+				C12CFDFB1E187EBA005DE61F /* Live.storyboard */,
+				C12CFE0B1E187F71005DE61F /* Controller */,
+				C12CFE0C1E187F71005DE61F /* Model */,
+				C12CFE0D1E187F71005DE61F /* View */,
+			);
+			name = "Live(直播)";
+			path = Live;
+			sourceTree = "<group>";
+		};
+		C12CFE0B1E187F71005DE61F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C12CFE141E188024005DE61F /* LiveController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C12CFE0C1E187F71005DE61F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C12CFE0D1E187F71005DE61F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C12CFE0E1E187F71005DE61F /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				C12CFE001E187F01005DE61F /* Profile.storyboard */,
+				C12CFE0F1E187F71005DE61F /* Controller */,
+				C12CFE101E187F71005DE61F /* Model */,
+				C12CFE111E187F71005DE61F /* View */,
+			);
+			name = "Profile(我的)";
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C12CFE0F1E187F71005DE61F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C12CFE181E18803F005DE61F /* ProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C12CFE101E187F71005DE61F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C12CFE111E187F71005DE61F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C154C2091F0F22A80054C0B2 = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +233,12 @@
 				C154C2171F0F22A80054C0B2 /* ViewController.swift */,
 				C154C23B1F0F298D0054C0B2 /* Model.swift */,
 				C154C2271F0F27A50054C0B2 /* BaseController.swift */,
+				C12CFE1A1E188189005DE61F /* BaseNavigetionController.swift */,
 				C154C2191F0F22A80054C0B2 /* Main.storyboard */,
+				C12CFE061E187F71005DE61F /* Home(首页) */,
+				C12CFE0A1E187F71005DE61F /* Live(直播) */,
+				C12CFE021E187F71005DE61F /* Follow(关注) */,
+				C12CFE0E1E187F71005DE61F /* Profile(我的) */,
 				C154C21C1F0F22A80054C0B2 /* Assets.xcassets */,
 				C154C21E1F0F22A80054C0B2 /* LaunchScreen.storyboard */,
 				C154C2211F0F22A80054C0B2 /* Info.plist */,
@@ -173,6 +332,10 @@
 				C154C2201F0F22A80054C0B2 /* LaunchScreen.storyboard in Resources */,
 				C154C21D1F0F22A80054C0B2 /* Assets.xcassets in Resources */,
 				C154C21B1F0F22A80054C0B2 /* Main.storyboard in Resources */,
+				C12CFDFC1E187EBA005DE61F /* Live.storyboard in Resources */,
+				C154C2441F0F61D70054C0B2 /* Home.storyboard in Resources */,
+				C12CFE011E187F01005DE61F /* Profile.storyboard in Resources */,
+				C12CFDFF1E187ED4005DE61F /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,11 +349,16 @@
 				C154C2331F0F28A90054C0B2 /* JQCircularIndicatorView.swift in Sources */,
 				C154C2341F0F28A90054C0B2 /* JQHUDString-Extension.swift in Sources */,
 				C154C2361F0F28A90054C0B2 /* JQOvalIndicatorView.swift in Sources */,
+				C12CFE151E188024005DE61F /* LiveController.swift in Sources */,
 				C154C23C1F0F298D0054C0B2 /* Model.swift in Sources */,
 				C154C2181F0F22A80054C0B2 /* ViewController.swift in Sources */,
 				C154C2351F0F28A90054C0B2 /* JQIndicatorView.swift in Sources */,
+				C12CFE191E18803F005DE61F /* ProfileController.swift in Sources */,
+				C12CFE131E188011005DE61F /* HomeController.swift in Sources */,
 				C154C2391F0F28A90054C0B2 /* JQProgressHUDTool.swift in Sources */,
+				C12CFE1B1E188189005DE61F /* BaseNavigetionController.swift in Sources */,
 				C154C2281F0F27A50054C0B2 /* BaseController.swift in Sources */,
+				C12CFE171E18802F005DE61F /* FollowController.swift in Sources */,
 				C154C23A1F0F28A90054C0B2 /* JQWeakTimerObject.swift in Sources */,
 				C154C2161F0F22A80054C0B2 /* AppDelegate.swift in Sources */,
 				C154C2381F0F28A90054C0B2 /* JQProgressHUDLabel.swift in Sources */,
@@ -201,6 +369,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C12CFDFD1E187ED4005DE61F /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12CFDFE1E187ED4005DE61F /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		C154C2191F0F22A80054C0B2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -215,6 +392,15 @@
 				C154C21F1F0F22A80054C0B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C154C2421F0F61D70054C0B2 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C154C2431F0F61D70054C0B2 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

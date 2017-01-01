@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         model1.setName(Aname: "234")
         
         dataArray = [Model(),model1]
-//        self.inittableV()
-        self.initCommon()
-        self.initLinearView()
+        self.inittableV()
+//        self.initCommon()
+//        self.initLinearView()
     }
 
     override func didReceiveMemoryWarning() {
