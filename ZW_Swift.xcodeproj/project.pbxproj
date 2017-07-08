@@ -15,8 +15,8 @@
 		C12CFE171E18802F005DE61F /* FollowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE161E18802F005DE61F /* FollowController.swift */; };
 		C12CFE191E18803F005DE61F /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE181E18803F005DE61F /* ProfileController.swift */; };
 		C12CFE1B1E188189005DE61F /* BaseNavigetionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE1A1E188189005DE61F /* BaseNavigetionController.swift */; };
+		C12CFE1F1F0F7F19005DE61F /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12CFE1E1F0F7F19005DE61F /* PageTitleView.swift */; };
 		C154C2161F0F22A80054C0B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2151F0F22A80054C0B2 /* AppDelegate.swift */; };
-		C154C2181F0F22A80054C0B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2171F0F22A80054C0B2 /* ViewController.swift */; };
 		C154C21B1F0F22A80054C0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C154C2191F0F22A80054C0B2 /* Main.storyboard */; };
 		C154C21D1F0F22A80054C0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C154C21C1F0F22A80054C0B2 /* Assets.xcassets */; };
 		C154C2201F0F22A80054C0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C154C21E1F0F22A80054C0B2 /* LaunchScreen.storyboard */; };
@@ -29,8 +29,9 @@
 		C154C2381F0F28A90054C0B2 /* JQProgressHUDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2301F0F28A90054C0B2 /* JQProgressHUDLabel.swift */; };
 		C154C2391F0F28A90054C0B2 /* JQProgressHUDTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2311F0F28A90054C0B2 /* JQProgressHUDTool.swift */; };
 		C154C23A1F0F28A90054C0B2 /* JQWeakTimerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C2321F0F28A90054C0B2 /* JQWeakTimerObject.swift */; };
-		C154C23C1F0F298D0054C0B2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154C23B1F0F298D0054C0B2 /* Model.swift */; };
 		C154C2441F0F61D70054C0B2 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C154C2421F0F61D70054C0B2 /* Home.storyboard */; };
+		C19761381F10A85B0037B232 /* ZWSecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19761371F10A85B0037B232 /* ZWSecondController.swift */; };
+		C197613D1F10B1F50037B232 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = C197613C1F10B1F50037B232 /* Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,9 +43,9 @@
 		C12CFE161E18802F005DE61F /* FollowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowController.swift; sourceTree = "<group>"; };
 		C12CFE181E18803F005DE61F /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		C12CFE1A1E188189005DE61F /* BaseNavigetionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigetionController.swift; sourceTree = "<group>"; };
+		C12CFE1E1F0F7F19005DE61F /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
 		C154C2121F0F22A80054C0B2 /* ZW_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZW_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C154C2151F0F22A80054C0B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C154C2171F0F22A80054C0B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C154C21A1F0F22A80054C0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C154C21C1F0F22A80054C0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C154C21F1F0F22A80054C0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +59,11 @@
 		C154C2301F0F28A90054C0B2 /* JQProgressHUDLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQProgressHUDLabel.swift; sourceTree = "<group>"; };
 		C154C2311F0F28A90054C0B2 /* JQProgressHUDTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQProgressHUDTool.swift; sourceTree = "<group>"; };
 		C154C2321F0F28A90054C0B2 /* JQWeakTimerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQWeakTimerObject.swift; sourceTree = "<group>"; };
-		C154C23B1F0F298D0054C0B2 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C154C2431F0F61D70054C0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		C19761371F10A85B0037B232 /* ZWSecondController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWSecondController.swift; sourceTree = "<group>"; };
+		C19761391F10AF0D0037B232 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ZW_Swift/PrefixHeader.pch; sourceTree = "<group>"; };
+		C197613C1F10B1F50037B232 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		C197613E1F10BDC50037B232 /* ZW_Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZW_Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				C12CFE121E188011005DE61F /* HomeController.swift */,
+				C19761371F10A85B0037B232 /* ZWSecondController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 		C12CFE091E187F71005DE61F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C12CFE1E1F0F7F19005DE61F /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +218,9 @@
 		C154C2091F0F22A80054C0B2 = {
 			isa = PBXGroup;
 			children = (
+				C19761391F10AF0D0037B232 /* PrefixHeader.pch */,
+				C197613E1F10BDC50037B232 /* ZW_Swift-Bridging-Header.h */,
+				C197613C1F10B1F50037B232 /* Const.swift */,
 				C154C2141F0F22A80054C0B2 /* ZW_Swift */,
 				C154C2131F0F22A80054C0B2 /* Products */,
 			);
@@ -230,8 +239,6 @@
 			children = (
 				C154C2291F0F28A90054C0B2 /* Common */,
 				C154C2151F0F22A80054C0B2 /* AppDelegate.swift */,
-				C154C2171F0F22A80054C0B2 /* ViewController.swift */,
-				C154C23B1F0F298D0054C0B2 /* Model.swift */,
 				C154C2271F0F27A50054C0B2 /* BaseController.swift */,
 				C12CFE1A1E188189005DE61F /* BaseNavigetionController.swift */,
 				C154C2191F0F22A80054C0B2 /* Main.storyboard */,
@@ -302,6 +309,7 @@
 					C154C2111F0F22A80054C0B2 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = S4YTN47V9U;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -350,19 +358,20 @@
 				C154C2341F0F28A90054C0B2 /* JQHUDString-Extension.swift in Sources */,
 				C154C2361F0F28A90054C0B2 /* JQOvalIndicatorView.swift in Sources */,
 				C12CFE151E188024005DE61F /* LiveController.swift in Sources */,
-				C154C23C1F0F298D0054C0B2 /* Model.swift in Sources */,
-				C154C2181F0F22A80054C0B2 /* ViewController.swift in Sources */,
 				C154C2351F0F28A90054C0B2 /* JQIndicatorView.swift in Sources */,
 				C12CFE191E18803F005DE61F /* ProfileController.swift in Sources */,
 				C12CFE131E188011005DE61F /* HomeController.swift in Sources */,
 				C154C2391F0F28A90054C0B2 /* JQProgressHUDTool.swift in Sources */,
+				C12CFE1F1F0F7F19005DE61F /* PageTitleView.swift in Sources */,
 				C12CFE1B1E188189005DE61F /* BaseNavigetionController.swift in Sources */,
 				C154C2281F0F27A50054C0B2 /* BaseController.swift in Sources */,
 				C12CFE171E18802F005DE61F /* FollowController.swift in Sources */,
 				C154C23A1F0F28A90054C0B2 /* JQWeakTimerObject.swift in Sources */,
 				C154C2161F0F22A80054C0B2 /* AppDelegate.swift in Sources */,
 				C154C2381F0F28A90054C0B2 /* JQProgressHUDLabel.swift in Sources */,
+				C19761381F10A85B0037B232 /* ZWSecondController.swift in Sources */,
 				C154C2371F0F28A90054C0B2 /* JQProgressHUD.swift in Sources */,
+				C197613D1F10B1F50037B232 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,11 +512,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = S4YTN47V9U;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AiMengShop/PrefixHeader.pch";
 				INFOPLIST_FILE = ZW_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "appid.ZW-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZW_Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -516,11 +532,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = S4YTN47V9U;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AiMengShop/PrefixHeader.pch";
 				INFOPLIST_FILE = ZW_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "appid.ZW-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZW_Swift-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

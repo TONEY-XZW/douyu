@@ -13,7 +13,7 @@
         <scene sceneID="ea7-RY-RnW">
             <objects>
                 <navigationController id="gOo-Qv-PYL" customClass="BaseNavigetionController" customModule="ZW_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="关注" id="rWK-rm-lnH"/>
+                    <tabBarItem key="tabBarItem" title="关注" image="tab_group_normal" selectedImage="tab_group_hover" id="rWK-rm-lnH"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MWd-2Z-15h">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -47,4 +47,8 @@
             <point key="canvasLocation" x="-660" y="1102"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_group_hover" width="34" height="34"/>
+        <image name="tab_group_normal" width="34" height="34"/>
+    </resources>
 </document>

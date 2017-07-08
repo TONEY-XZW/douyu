@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  ZW_Swift
+//
+//  Created by zeroing on 2017/7/8.
+//  Copyright © 2017年 com.qq-app.appid. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//转换成swift的写法
+let kIOS7 = Double(UIDevice().systemVersion)>=7.0 ? 1 :0
+let kIOS8 = Double(UIDevice().systemVersion)>=8.0 ? 1 :0
+
+let kScreenHeight = UIScreen.mainScreen().bounds.size.height
+let kScreenWidth = UIScreen.mainScreen().bounds.size.width
+
+#endif /* PrefixHeader_pch */

@@ -13,7 +13,7 @@
         <scene sceneID="Bft-ZB-Uey">
             <objects>
                 <navigationController id="8Jb-Vf-cm2" customClass="BaseNavigetionController" customModule="ZW_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="我的" id="IAr-5O-T3U"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="tab_me_normal" selectedImage="tab_me_hover" id="IAr-5O-T3U"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jfU-xv-eNO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -47,4 +47,8 @@
             <point key="canvasLocation" x="-1238" y="1565"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_me_hover" width="34" height="34"/>
+        <image name="tab_me_normal" width="34" height="34"/>
+    </resources>
 </document>

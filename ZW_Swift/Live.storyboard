@@ -13,7 +13,7 @@
         <scene sceneID="VFE-JR-ONC">
             <objects>
                 <navigationController id="IcW-0v-Nh3" customClass="BaseNavigetionController" customModule="ZW_Swift" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="直播" id="n1D-oQ-o1p"/>
+                    <tabBarItem key="tabBarItem" title="直播" image="tab_message_normal" selectedImage="tab_message_hover" id="n1D-oQ-o1p"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Shm-Zm-PYX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -47,4 +47,8 @@
             <point key="canvasLocation" x="-889" y="24"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_message_hover" width="34" height="34"/>
+        <image name="tab_message_normal" width="34" height="34"/>
+    </resources>
 </document>

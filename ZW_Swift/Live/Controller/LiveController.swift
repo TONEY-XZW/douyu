@@ -13,6 +13,9 @@ class LiveController: BaseController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "直播"
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(imageName: "topic_button_toLive", highImageName: "tab_recommend_hover", size: CGSize.zero, target: self, action: #selector(leftItemClick))
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,14 +24,8 @@ class LiveController: BaseController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func leftItemClick() -> Void {
+        
     }
-    */
 
 }
