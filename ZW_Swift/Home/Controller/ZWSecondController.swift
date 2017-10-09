@@ -15,7 +15,7 @@ class ZWSecondController: BaseController {
         
         self.view.backgroundColor = .white
         
-        initMainView(width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
+        initMainView(width: kScreenWidth, height: UIScreen.main.bounds.size.height)
        
         let labe1 = UILabel.init(frame: CGRect(x: 10, y: 10, width: kScreenWidth-20, height: 300))
         let labe2 = UILabel.init(frame: CGRect(x: labe1.minX, y: labe1.maxY+10, width: kScreenWidth-20, height: 300))
@@ -37,7 +37,9 @@ class ZWSecondController: BaseController {
         
         labe1.backgroundColor = .yellow
         labe2.backgroundColor = .green
+        
         labe3.backgroundColor = "898989".Color()
+        
         labe4.backgroundColor = UIColor.init(hexColor: "123123")
         
         labe12.backgroundColor  = "f98223".Color()
@@ -46,10 +48,13 @@ class ZWSecondController: BaseController {
         let model = UIDevice.current.localizedModel
         print("\(model)")
         
-        let name = "xuzhiwen"
-        let age = String.init(format: "%@%@", name,"123")
-        ZWLog(message: age)
+        ZWLog(message: name1.maxY)
         
+        labe1.text = "hehe"
+        labe2.text = "hehe"
+        labe3.text = "hehe"
+        
+        mainView.backgroundColor = "123123".Color()
     }
     
     override func didReceiveMemoryWarning() {
